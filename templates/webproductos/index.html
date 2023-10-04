@@ -1,0 +1,26 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA DJANGO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="container mt-5">
+    <div class="alert alert-info text-center display-1"><img src="{%static 'img/logo.jpeg'%}" alt="" width="180px"> DJANGO SHOP</div>
+
+    <div class="row">
+        <div class="col"><a href="/usuario" class="btn btn-info w-100 p-3"> usuario</a></div>
+        <div class="col"><a href="/juegos" class="btn btn-danger w-100 p-3"> Video Juegos</a></div>
+        <div class="col"><a href="/figuras" class="btn btn-warning w-100 p-3"> Figuras</a></div>
+        <div class="col"><a href="/juegosmesa" class="btn btn-success w-100 p-3"> Juegos de mesa</a></div>
+    </div>
+
+</body>
+
+</html>
